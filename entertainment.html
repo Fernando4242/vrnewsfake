@@ -1,462 +1,581 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>VRNewsFake - Local </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>VRNewsFake - Local</title>
     <link rel="icon" type="image/ico" href="images/Logo.png" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link
-        href="https://fonts.googleapis.com/css?family=Concert+One|Playfair+Display|Neuton|Space+Mono|Work+Sans&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<!-- USED FOR CSS PURPOSES ("local")-->
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Concert+One|Playfair+Display|Neuton|Space+Mono|Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <!-- USED FOR CSS PURPOSES ("local")-->
 
-<body>
+  <body>
     <!-- CONTAINER -->
     <div class="container-fluid">
-        <!-- NAVBAR -->
-        <div class="row headerAdHolder">
-            <div class="imageHolder">
-                <img id="headerAd" src="">
-            </div>
+      <!-- NAVBAR -->
+      <div class="row headerAdHolder">
+        <div class="imageHolder">
+          <img id="headerAd" src="" />
         </div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/Logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                VRNewsFake
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="technology.html">Technology</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="local.html">Local</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Sports
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="basketball.html">Basketball</a>
-                            <a class="dropdown-item" href="hockey.html">Hockey</a>
-                        </div>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="entertainment.html">Entertainment<span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
-                <span class="navbar-text">
-                    <div id="one">
-                        <h5 class="time"></h5>
-                    </div>
-                    <div id="two">
-                        <h5><span class="display"></span> &#8457;</h5>
-                    </div>
-                    <div id="three">
-                        <h5 class="hour"></h5>
-                    </div>
-                </span>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="images/Logo.png"
+            width="30"
+            height="30"
+            class="d-inline-block align-top"
+            alt=""
+          />
+          VRNewsFake
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="technology.html">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="local.html">Local</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Sports
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="basketball.html">Basketball</a>
+                <a class="dropdown-item" href="hockey.html">Hockey</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="entertainment.html"
+                >Entertainment<span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <div id="one">
+              <h5 class="time"></h5>
             </div>
-        </nav>
-        <!-- Darkmode Button -->
-        <div class=" text-right fixed-bottom">
-            <button id="dark-on-off" type="button" class="btn btn-dark">Dark Mode</button>
+            <div id="two">
+              <h5><span class="display"></span> &#8457;</h5>
+            </div>
+            <div id="three">
+              <h5 class="hour"></h5>
+            </div>
+          </span>
         </div>
-        <div class="container">
-            <div class="main-content">
-                <!-- LOCAL HOME PAGE -->
-                <div class="row" id="local-home">
-                    <!-- LOCAL HOME CARD ONE -->
-                    <div class="col-6 col-md-6">
-                        <div class="card" style="height: 100%;">
-                            <img src="images/sports/Amy_Schumer.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title article-one-link">Amy Schumer gave out her phone number. We tried
-                                    getting in
-                                    touch</h5>
-                                <p class="card-text">
-                                    Well well well she has given her phone number once again. What a really unexpected
-                                    situation.
-                                </p>
-                                <p class="last-modified"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- LOCAL HOME CARD TWO -->
-                    <div class="col-6 col-md-6">
-                        <div class="card" style="width: 100%; height: 100%;">
-                            <img src="images/technology/kanye.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title article-two-link">Kanye says he may change his name to Christian
-                                    Genius
-                                    Billionaire
-                                    Kanye
-                                    West. Then again, he says a lot of things</h5>
-                                <p class="card-text">
-                                    Of course their needs to be an article about kanye and how he likes saying stuff
-                                    that
-                                    probably wont happen.
-                                </p>
-                                <p class="last-modified"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
+      </nav>
+      <!-- Darkmode Button -->
+      <button
+        id="dark-on-off"
+        type="button"
+        class="btn btn-dark text-right text-right fixed-bottom-l"
+      >
+        Dark Mode
+      </button>
+      <div class="container">
+        <div class="main-content">
+          <!-- LOCAL HOME PAGE -->
+          <div class="row" id="local-home">
+            <!-- LOCAL HOME CARD ONE -->
+            <div class="col-6 col-md-6">
+              <div class="card" style="height: 100%">
+                <img
+                  src="images/sports/Amy_Schumer.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title article-one-link">
+                    Amy Schumer gave out her phone number. We tried getting in
+                    touch
+                  </h5>
+                  <p class="card-text">
+                    Well well well she has given her phone number once again.
+                    What a really unexpected situation.
+                  </p>
+                  <p class="last-modified">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </p>
                 </div>
-                <!-- END OF LOCAL HOME -->
-                <hr>
-                <!-- START OF LOCAL ARTICLES SECTION -->
-                <div class="row d-none" id="local-article">
-                    <!-- START OF ARTICLE ONE ("local-one") -->
-                    <div id="local-one" class="col-lg-9 col-12">
-                        <div class="col-12">
-                            <hr>
-                            <h2 class="card-title">Amy Schumer gave out her phone number. We tried getting in
-                                touch
-                            </h2>
-                            <div class="author-info">
-                                <div class="img-author">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="author-text">
-                                    <p class="author"></p>
-                                    <p class="last-modified"></p>
-                                </div>
-                            </div>
-                            <hr>
-                            <img class="article-img" src="images/sports/Amy_Schumer.jpg" alt="">
-                            <div>
-                                <h3 class="article-sub">
-                                    What is the so called news?
-                                </h3>
-                                <p class="article-text">
-                                    Amy Schumer, someone who I never have heard of. She apparently gave out her number
-                                    to one of her fans. Then it got out by accident and we got a hold
-                                    off it. We tried to contact but she did not answer and we know she recieved the
-                                    messages. We send a few like a few hundred messages, just enough so we made sure she
-                                    saw we texted. We
-                                    didn't want to be to desperate but at the same time we wanted her to answer.
-                                </p>
-                                <p class="article-text">
-                                    She ended up not answering at all and we had to just give up since we were also
-                                    tired of typing "Hello".
-                                    It wasn't just hello but also we called her many many times but no answer, even from
-                                    many cell phones. Almost every one tried calling her, except for Jeremy of course he
-                                    doesn't have a phone.
-                                    But either way, im sure we will get another chance to try since thats always the
-                                    case with any celebrities.
-                                </p>
-                                <img class="article-img" src="images/sports/amy_two.jpg" alt="">
-                                <h3 class="article-sub">
-                                    Why is this not really new News?
-                                </h3>
-                                <p class="article-text">
-                                    The reason this is not really new News is because she has done this many time
-                                    before. Each time its either giving her phone number
-                                    to a celebrity or fan. It is alwasy leaked really fast somehow almost like it was
-                                    plan.
-                                    We sometimes think she just want publicity but either way we still cover it incase
-                                    there is much more to this story
-                                    than meets the eye. But, for this it seems like it has nothing special behind it but
-                                    we must let our audience still know about it and
-                                    let them know we tried to get in contact with her.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END OF ARTICLE ONE -->
-
-                    <!-- START OF ARTICLE TWO ("local-two") -->
-                    <div id="local-two" class="col-lg-9 col-12">
-                        <div class="col-12">
-                            <hr>
-                            <h2 class="card-title">
-                                Kanye says he may change his name to Christian Genius
-                                Billionaire
-                                Kanye
-                                West. Then again, he says a lot of things
-                            </h2>
-                            <div class="author-info">
-                                <div class="img-author">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="author-text">
-                                    <p class="author"></p>
-                                    <p class="last-modified"></p>
-                                </div>
-                            </div>
-                            <hr>
-                            <img class="article-img" src="images/technology/kanye.jpg" alt="">
-                            <div>
-                                <h3 class="article-sub">
-                                    What is this twerp talking about now?
-                                </h3>
-                                <p class="article-text">
-                                    Kanye once again has the best idea ever in the whole wide world. It is to change his
-                                    to.....drum role please!
-                                    "Christian Genius Billionaire Kanye West" would be his name if went a long with it
-                                    but im sure its not going to happen.
-                                    Funny Kanye has pulled many of this stuns and at this point where not taking
-                                    anything he says seriously.
-                                </p>
-                                <p class="article-text">
-                                    He said this while in a talk with I dont know who,, maybe Jimmy Kemel? Jimmy
-                                    something thats all we know. Well either way some people really thought he was being
-                                    for real
-                                    and decided to change their tatooes to match his new name. That was really only like
-                                    die hard fans but either way we thought
-                                    it was pretty funny so we included it in this article. I really wish he did change
-                                    his name so atleat something he says comes true.
-                                    Well I mean he has had some truth at time but some crazy ideas like becoming
-                                    president hasn't happened.
-                                </p>
-                                <img class="article-img" src="images/technology/kanye_two.jpg" alt="">
-                                <h3 class="article-sub">
-                                    Why did we write this?
-                                </h3>
-                                <p class="article-text">
-                                    The only reason why we wrote this is because Kanye is always funny and interesting
-                                    to write about. Since, eventough he is kinda predictable in doing someting dumb or
-                                    saying something dumb we dont know what grand idea might be. We always look forward
-                                    to his apperances in talk shows
-                                    and pay attention to his tweets. They usually go crazy and his followers love them.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END OF ARTICLE TWO -->
-                    <!-- START OF SIDE ARTICLES / GIFS -->
-                    <div class="col-3 d-none d-lg-block">
-                        <div class="row">
-                            <div class="col-12 pt-md-5">
-                                <div class="card" style="width:100%;">
-                                    <img class="card-img-top" src="images/local/local_animals.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                            <a href="local.html">
-                                            More than 100 animals rescued from double-wide
-                                            trailer,
-                                            Collin County
-                                            officials say</a>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 pt-md-5 sticky">
-                                <iframe class="gif video-gif" src="https://www.youtube.com/embed/8Qn_spdM5Zg?"
-                                    frameborder="0"
-                                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen>
-                                </iframe>
-                            </div>
-                            <div class="col-12 pt-md-5">
-                                <div class="card" style="width:100%;">
-                                    <img class="card-img-top" src="images/local/rail.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                            <a href="local.html">Texas High-Speed Train Is ‘Shovel Ready'</a>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 pt-md-5">
-                                <img class="gif" src="images/gifs/entertainment_one.gif" alt="">
-                            </div>
-                            <div class="col-12 pt-md-5">
-                                <div class="card" style="width:100%;">
-                                    <img class="card-img-top" src="images/sports/James_Wiseman_of_Memphis_Can_Return_From_Suspension_in_January.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                            <a href="basketball.html">
-                                            James Wiseman of Memphis Can Return From Suspension in
-                                        January</a>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 pt-md-5">
-                                <img class="gif" src="images/gifs/entertainment_two.gif" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END OF SIDE ARTICLE / GIFS -->
-                </div>
-                <!-- END OF LOCAL ARTICLES SECTION -->
-
-                <!-- START OF BOTTOM ARTICLE CARDS -->
-                <hr>
-                <div class="row">
-                    <div class="col">
-                        <div class="card-deck">
-                            <div class="card" style="width:100%;">
-                                <img class="card-img-top" src="images/technology/amazon.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">
-                                        <a href="technology.html">
-                                        Amazon wants to ship you anything in 30 minutes. It's going to
-                                        need a
-                                        lot
-                                        of robots</a>
-                                    </h5>
-                                </div>
-                            </div>
-                            <div class="card" style="width:100%;">
-                                <img class="card-img-top"
-                                    src="images/sports/Getting_Hockey_Referees_Ready_for_the Big_Leagues.jpg"
-                                    alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 id="weather" class="card-title">
-                                        <a href="hockey.html">
-                                        Getting Hockey Referees Ready for the Big
-                                        Leagues</a></h5>
-                                </div>
-                            </div>
-                            <div class="card" style="width:100%;">
-                                <img class="card-img-top"
-                                    src="images/dummy_stuff/fire.jpg"
-                                    alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Fire was started due to climate change happening really fast.</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </div>
-        <!-- END OF BOTTOM ARTICLE CARDS -->
-
-        <!-- START OF FOOTER -->
-        <footer>
-            <div class="row">
-                <div class="col-12">
-                    <form class="form-inline my-2 ">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
+            <!-- LOCAL HOME CARD TWO -->
+            <div class="col-6 col-md-6">
+              <div class="card" style="width: 100%; height: 100%">
+                <img
+                  src="images/technology/kanye.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title article-two-link">
+                    Kanye says he may change his name to Christian Genius
+                    Billionaire Kanye West. Then again, he says a lot of things
+                  </h5>
+                  <p class="card-text">
+                    Of course their needs to be an article about kanye and how
+                    he likes saying stuff that probably wont happen.
+                  </p>
+                  <p class="last-modified">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </p>
                 </div>
+              </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="row">
-                        <div class="col-12">
-                            <h3>Technology</h3>
-                        </div>
-                        <div class="col">
-                            <h5> <a href="technology.html">Amazon</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <div class="col-12">
-                            <h3>Entertainment</h3>
-                        </div>
-                        <div class="col-12">
-                            <h5><a href="entertainment.html">Amy Schume</a></h5>
-                        </div>
-                        <div class="col-12">
-                            <h5><a href="entertainment.html">Kanye West</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <div class="col-12">
-                            <h3>Sports</h3>
-                        </div>
-                        <div class="col-12">
-                            <h5> <a href="basketball.html"> Basketball</a></h5>
-                        </div>
-                        <div class="col-12">
-                            <h5> <a href="hockey.html"> Hockey</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <div class="col-12">
-                            <h3>Local</h3>
-                        </div>
-                        <div class="col-12">
-                            <h5> <a href="local.html">Animals</a></h5>
-                        </div>
-                        <div class="col-12">
-                            <h5> <a href="local.html"></a> Train</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <a href="https://www.linkedin.com/in/fernporti/" target="_blank">
-                      <i class="fab fa-linkedin fa-3x social"></i>
-                    </a>
-        
-                    <a href="https://github.com/Fernando4242" target="_blank">
-                      <i class="fab fa-github fa-3x social"></i>
-                    </a>
-                    <i class="fas fa-code fa-3x social"></i>
+          </div>
+          <!-- END OF LOCAL HOME -->
+          <hr />
+          <!-- START OF LOCAL ARTICLES SECTION -->
+          <div class="row d-none" id="local-article">
+            <!-- START OF ARTICLE ONE ("local-one") -->
+            <div id="local-one" class="col-lg-9 col-12">
+              <div class="col-12">
+                <hr />
+                <h2 class="card-title">
+                  Amy Schumer gave out her phone number. We tried getting in
+                  touch
+                </h2>
+                <div class="author-info">
+                  <div class="img-author">
+                    <img src="" alt="" />
                   </div>
-                <div class="last">
-                    <hr>
-                    <div class="row">
-                        <div class="col-6">
-                            <h6> Copyright &copy; 2019 VRNewsFake. All Rights Reserved.</h6>
-                        </div>
-                        <div class="col-6">
-                            <button type="button" class="btn btn-info source">Sources</button>
-                        </div>
-                    </div>
+                  <div class="author-text">
+                    <p class="author"></p>
+                    <p class="last-modified"></p>
+                  </div>
                 </div>
+                <hr />
+                <img
+                  class="article-img"
+                  src="images/sports/Amy_Schumer.jpg"
+                  alt=""
+                />
+                <div>
+                  <h3 class="article-sub">What is the so called news?</h3>
+                  <p class="article-text">
+                    Amy Schumer, someone who I never have heard of. She
+                    apparently gave out her number to one of her fans. Then it
+                    got out by accident and we got a hold off it. We tried to
+                    contact but she did not answer and we know she recieved the
+                    messages. We send a few like a few hundred messages, just
+                    enough so we made sure she saw we texted. We didn't want to
+                    be to desperate but at the same time we wanted her to
+                    answer.
+                  </p>
+                  <p class="article-text">
+                    She ended up not answering at all and we had to just give up
+                    since we were also tired of typing "Hello". It wasn't just
+                    hello but also we called her many many times but no answer,
+                    even from many cell phones. Almost every one tried calling
+                    her, except for Jeremy of course he doesn't have a phone.
+                    But either way, im sure we will get another chance to try
+                    since thats always the case with any celebrities.
+                  </p>
+                  <img
+                    class="article-img"
+                    src="images/sports/amy_two.jpg"
+                    alt=""
+                  />
+                  <h3 class="article-sub">Why is this not really new News?</h3>
+                  <p class="article-text">
+                    The reason this is not really new News is because she has
+                    done this many time before. Each time its either giving her
+                    phone number to a celebrity or fan. It is alwasy leaked
+                    really fast somehow almost like it was plan. We sometimes
+                    think she just want publicity but either way we still cover
+                    it incase there is much more to this story than meets the
+                    eye. But, for this it seems like it has nothing special
+                    behind it but we must let our audience still know about it
+                    and let them know we tried to get in contact with her.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div id="display-sources" class="d-none">
-                <button id="close-source" type="button" class="close" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+            <!-- END OF ARTICLE ONE -->
+
+            <!-- START OF ARTICLE TWO ("local-two") -->
+            <div id="local-two" class="col-lg-9 col-12">
+              <div class="col-12">
+                <hr />
+                <h2 class="card-title">
+                  Kanye says he may change his name to Christian Genius
+                  Billionaire Kanye West. Then again, he says a lot of things
+                </h2>
+                <div class="author-info">
+                  <div class="img-author">
+                    <img src="" alt="" />
+                  </div>
+                  <div class="author-text">
+                    <p class="author"></p>
+                    <p class="last-modified"></p>
+                  </div>
+                </div>
+                <hr />
+                <img
+                  class="article-img"
+                  src="images/technology/kanye.jpg"
+                  alt=""
+                />
+                <div>
+                  <h3 class="article-sub">
+                    What is this twerp talking about now?
+                  </h3>
+                  <p class="article-text">
+                    Kanye once again has the best idea ever in the whole wide
+                    world. It is to change his to.....drum role please!
+                    "Christian Genius Billionaire Kanye West" would be his name
+                    if went a long with it but im sure its not going to happen.
+                    Funny Kanye has pulled many of this stuns and at this point
+                    where not taking anything he says seriously.
+                  </p>
+                  <p class="article-text">
+                    He said this while in a talk with I dont know who,, maybe
+                    Jimmy Kemel? Jimmy something thats all we know. Well either
+                    way some people really thought he was being for real and
+                    decided to change their tatooes to match his new name. That
+                    was really only like die hard fans but either way we thought
+                    it was pretty funny so we included it in this article. I
+                    really wish he did change his name so atleat something he
+                    says comes true. Well I mean he has had some truth at time
+                    but some crazy ideas like becoming president hasn't
+                    happened.
+                  </p>
+                  <img
+                    class="article-img"
+                    src="images/technology/kanye_two.jpg"
+                    alt=""
+                  />
+                  <h3 class="article-sub">Why did we write this?</h3>
+                  <p class="article-text">
+                    The only reason why we wrote this is because Kanye is always
+                    funny and interesting to write about. Since, eventough he is
+                    kinda predictable in doing someting dumb or saying something
+                    dumb we dont know what grand idea might be. We always look
+                    forward to his apperances in talk shows and pay attention to
+                    his tweets. They usually go crazy and his followers love
+                    them.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- END OF ARTICLE TWO -->
+            <!-- START OF SIDE ARTICLES / GIFS -->
+            <div class="col-3 d-none d-lg-block">
+              <div class="row">
+                <div class="col-12 pt-md-5">
+                  <div class="card" style="width: 100%">
+                    <img
+                      class="card-img-top"
+                      src="images/local/local_animals.png"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="local.html">
+                          More than 100 animals rescued from double-wide
+                          trailer, Collin County officials say</a
+                        >
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 pt-md-5 sticky">
+                  <iframe
+                    class="gif video-gif"
+                    src="https://www.youtube.com/embed/8Qn_spdM5Zg?"
+                    frameborder="0"
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  >
+                  </iframe>
+                </div>
+                <div class="col-12 pt-md-5">
+                  <div class="card" style="width: 100%">
+                    <img
+                      class="card-img-top"
+                      src="images/local/rail.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="local.html"
+                          >Texas High-Speed Train Is ‘Shovel Ready'</a
+                        >
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 pt-md-5">
+                  <img
+                    class="gif"
+                    src="images/gifs/entertainment_one.gif"
+                    alt=""
+                  />
+                </div>
+                <div class="col-12 pt-md-5">
+                  <div class="card" style="width: 100%">
+                    <img
+                      class="card-img-top"
+                      src="images/sports/James_Wiseman_of_Memphis_Can_Return_From_Suspension_in_January.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="basketball.html">
+                          James Wiseman of Memphis Can Return From Suspension in
+                          January</a
+                        >
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 pt-md-5">
+                  <img
+                    class="gif"
+                    src="images/gifs/entertainment_two.gif"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- END OF SIDE ARTICLE / GIFS -->
+          </div>
+          <!-- END OF LOCAL ARTICLES SECTION -->
+
+          <!-- START OF BOTTOM ARTICLE CARDS -->
+          <hr />
+          <div class="row">
+            <div class="col">
+              <div class="card-deck">
+                <div class="card" style="width: 100%">
+                  <img
+                    class="card-img-top"
+                    src="images/technology/amazon.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="technology.html">
+                        Amazon wants to ship you anything in 30 minutes. It's
+                        going to need a lot of robots</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+                <div class="card" style="width: 100%">
+                  <img
+                    class="card-img-top"
+                    src="images/sports/Getting_Hockey_Referees_Ready_for_the Big_Leagues.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 id="weather" class="card-title">
+                      <a href="hockey.html">
+                        Getting Hockey Referees Ready for the Big Leagues</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+                <div class="card" style="width: 100%">
+                  <img
+                    class="card-img-top"
+                    src="images/dummy_stuff/fire.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Fire was started due to climate change happening really
+                      fast.
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF BOTTOM ARTICLE CARDS -->
+
+      <!-- START OF FOOTER -->
+      <footer>
+        <div class="row">
+          <div class="col-12">
+            <form class="form-inline my-2">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success my-2 my-sm-0"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="row">
+              <div class="col-12">
+                <h3>Technology</h3>
+              </div>
+              <div class="col">
+                <h5><a href="technology.html">Amazon</a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="col-12">
+                <h3>Entertainment</h3>
+              </div>
+              <div class="col-12">
+                <h5><a href="entertainment.html">Amy Schume</a></h5>
+              </div>
+              <div class="col-12">
+                <h5><a href="entertainment.html">Kanye West</a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="col-12">
+                <h3>Sports</h3>
+              </div>
+              <div class="col-12">
+                <h5><a href="basketball.html"> Basketball</a></h5>
+              </div>
+              <div class="col-12">
+                <h5><a href="hockey.html"> Hockey</a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="col-12">
+                <h3>Local</h3>
+              </div>
+              <div class="col-12">
+                <h5><a href="local.html">Animals</a></h5>
+              </div>
+              <div class="col-12">
+                <h5><a href="local.html"></a> Train</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <a href="https://www.linkedin.com/in/fernporti/" target="_blank">
+              <i class="fab fa-linkedin fa-3x social"></i>
+            </a>
+
+            <a href="https://github.com/Fernando4242" target="_blank">
+              <i class="fab fa-github fa-3x social"></i>
+            </a>
+            <i class="fas fa-code fa-3x social"></i>
+          </div>
+          <div class="last">
+            <hr />
+            <div class="row">
+              <div class="col-6">
+                <h6>Copyright &copy; 2019 VRNewsFake. All Rights Reserved.</h6>
+              </div>
+              <div class="col-6">
+                <button type="button" class="btn btn-info source">
+                  Sources
                 </button>
-                <h6>Close</h6>
-                <div class="align-center">
-                    <div class="row">
-                        <div class="col-12 col-md-4">
-                            <a href="https://cnn.com" target="_blank"><img src="images/sources/cnn.jpg" alt=""></a>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <a href="https://giphy.com" target="_blank"><img src="images/sources/giphy.gif" alt=""></a>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <a href="https://unsplash.com" target="_blank"><img src="images/sources/unsplash.jpg"
-                                    alt=""></a>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </footer>
+          </div>
+        </div>
+        <div id="display-sources" class="d-none">
+          <button
+            id="close-source"
+            type="button"
+            class="close"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h6>Close</h6>
+          <div class="align-center">
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <a href="https://cnn.com" target="_blank"
+                  ><img src="images/sources/cnn.jpg" alt=""
+                /></a>
+              </div>
+              <div class="col-12 col-md-4">
+                <a href="https://giphy.com" target="_blank"
+                  ><img src="images/sources/giphy.gif" alt=""
+                /></a>
+              </div>
+              <div class="col-12 col-md-4">
+                <a href="https://unsplash.com" target="_blank"
+                  ><img src="images/sources/unsplash.jpg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/script.js"></script>
-</body>
-
+  </body>
 </html>

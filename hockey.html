@@ -1,357 +1,455 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>VRNewsFake - Sports - Hockey </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>VRNewsFake - Sports - Hockey</title>
     <link rel="icon" type="image/ico" href="images/Logo.png" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link
-        href="https://fonts.googleapis.com/css?family=Concert+One|Neuton|Playfair+Display|Space+Mono|Work+Sans&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Concert+One|Neuton|Playfair+Display|Space+Mono|Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container-fluid">
-        <div class="row headerAdHolder">
-            <div class="imageHolder">
-                <img id="headerAd" src="">
-            </div>
+      <div class="row headerAdHolder">
+        <div class="imageHolder">
+          <img id="headerAd" src="" />
         </div>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/Logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                VRNewsFake
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="technology.html">Technology</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="local.html">Local</a>
-                    </li>
-                    <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Sports
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="basketball.html">Basketball</a>
-                            <a class="dropdown-item" href="hockey.html">Hockey</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="entertainment.html">Entertainment</a>
-                    </li>
-                </ul>
-                <span class="navbar-text">
-                    <div id="one">
-                        <h5 class="time"></h5>
-                    </div>
-                    <div id="two">
-                        <h5><span class="display"></span> &#8457;</h5>
-                    </div>
-                    <div id="three">
-                        <h5 class="hour"></h5>
-                    </div>
-                </span>
+      </div>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="images/Logo.png"
+            width="30"
+            height="30"
+            class="d-inline-block align-top"
+            alt=""
+          />
+          VRNewsFake
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="technology.html">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="local.html">Local</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Sports
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="basketball.html">Basketball</a>
+                <a class="dropdown-item" href="hockey.html">Hockey</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="entertainment.html">Entertainment</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <div id="one">
+              <h5 class="time"></h5>
             </div>
-        </nav>
-        <!-- Darkmode Button -->
-        <div class="text-right fixed-bottom">
-            <button id="dark-on-off" type="button" class="btn btn-dark">Dark Mode</button>
+            <div id="two">
+              <h5><span class="display"></span> &#8457;</h5>
+            </div>
+            <div id="three">
+              <h5 class="hour"></h5>
+            </div>
+          </span>
         </div>
-        <!-- Main Content -->
-        <div class="container">
-            <div class="main-content">
-                <div class="row">
-                    <div id="technology" class="col-lg-9 col-12">
-                        <div class="col-12">
-                            <hr>
-                            <h2 class="article-title">
-                                Getting Hockey Referees Ready for the Big Leagues
-                            </h2>
-                            <div class="author-info">
-                                <div class="img-author">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="author-text">
-                                    <p class="author"></p>
-                                    <p class="last-modified"></p>
-                                </div>
-                            </div>
-                            <hr>
-                            <img class="article-img"
-                                src="images/sports/Getting_Hockey_Referees_Ready_for_the Big_Leagues.jpg" alt="">
-                            <div>
-                                <h3 class="article-sub">
-                                    Why?
-                                </h3>
-                                <p class="article-text">
-                                    The big leagues can be really scary for noobs that are coming in. Especially, for
-                                    new refs going into hockey,
-                                    a place where a brawl can happen anytime. So of course they are going into a intense
-                                    training session of getting hit. They also train to not be afraid of this big heavy
-                                    and sometimes even really aggressive
-                                    players. The worst part is that refs dont wear much protection but are still in the
-                                    ice ring along side
-                                    every player.
-                                </p>
-                                <p class="article-text">
-                                    Now, this refs need to seriously prepare and it is said their training routine is as
-                                    hard as any Marines out there. It
-                                    is one of the toughest 2 months course consisting of 7 days week and 10 hours a day.
-                                    This is their job so they don't need to go
-                                    anywhere else or need to earn money some other way. They are getting paid while in
-                                    this course and also have life insurance
-                                    in case they get hurt. One of the founders of this course and leaders who are
-                                    preparing refs said "This year many refs will get hurt but
-                                    it is only to protect them out there in the ring. A place where anything can
-                                    happen!"
-                                </p>
-                                <img class="article-img" src="images/sports/hockey-two.jpg" alt="">
-                                <h3 class="article-sub">
-                                    Do they after do something else after this?
-                                </h3>
-                                <p class="article-text">
-                                    Afte this intense training session, the refs must take a written test and a multiple
-                                    choice test.
-                                    The written test needs to be 3 pages long explaining a whole game and must have on
-                                    time where
-                                    a fight happens. They must explain what they would do in that fight or if someone
-                                    ran into them while in the ice.
-                                    The multiple choice will be around 70 question that all about different possible
-                                    outcomes.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- START OF SIDE ARTICLES -->
-                    <div class="col-3 d-none d-lg-block">
-                        <div class="row">
-                            <div class="col-12 pt-md-5">
-                                <div class="card" style="width:100%;">
-                                    <img class="card-img-top"
-                                        src="images/sports/James_Wiseman_of_Memphis_Can_Return_From_Suspension_in_January.jpg"
-                                        alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                            <a href="basketball.html">James Wiseman of Memphis Can Return From
-                                                Suspension in January</a>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 pt-md-5 sticky">
-                                <iframe class="gif video-gif" src="https://www.youtube.com/embed/xIl2z5wwjdA?"
-                                    frameborder="0"
-                                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen>
-                                </iframe>
-                            </div>
-                            <div class="col-12 pt-md-5">
-                                <div class="card" style="width:100%;">
-                                    <img class="card-img-top" src="images/technology/amazon.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                            <a href="technology.html">
-                                                Amazon wants to ship you anything in
-                                                30 minutes. It's going to
-                                                need a
-                                                lots
-                                                of robots
-                                            </a>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 pt-md-5">
-                                <img class="gif"
-                                    src="https://m.media-amazon.com/images/G/01/shazam/f3vx-1353-wfm-hol-ent-new-display-300x250-1miy1._V447554630_.jpg"
-                                    alt="">
-                            </div>
-                            <div class="col-12 pt-md-5">
-                                <div class="card" style="width:100%;">
-                                    <img class="card-img-top" src="images/technology/kanye.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                            <a href="entertainment.html">
-                                            Kanye says he may change his name to Christian Genius
-                                            Billionaire
-                                            Kanye
-                                            West. Then again, he says a lot of things
-                                        </a>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 pt-md-5">
-                                <img class="gif" src="images/gifs/sports-3.gif" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END OF SIDE ARTICLE / GIFS -->
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col">
-                        <div class="card-deck">
-                            <div class="card" style="width:100%;">
-                                <img class="card-img-top" src="images/sports/Amy_Schumer.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title"> <a href="entertainment.html">Amy Schumer gave out her phone number. We tried getting in
-                                        touch</a>
-                                    </h5>
-                                </div>
-                            </div>
-                            <div class="card" style="width:100%;">
-                                <img class="card-img-top" src="images/local/local_animals.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 id="weather" class="card-title"> <a href="local.html">More than 100 animals rescued from double-wide
-                                        trailer,
-                                        Collin County
-                                        officials say</a></h5>
-                                </div>
-                            </div>
-                            <div class="card" style="width:100%;">
-                                <img class="card-img-top" src="images/local/rail.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title"> <a href="local.html">Texas High-Speed Train Is ‘Shovel Ready'</a></h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer>
-            <div class="row">
-                <div class="col-12">
-                    <form class="form-inline my-2 ">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="row">
-                        <div class="col-12">
-                            <h3>Technology</h3>
-                        </div>
-                        <div class="col">
-                            <h5> <a href="technology.html">Amazon</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <div class="col-12">
-                            <h3>Entertainment</h3>
-                        </div>
-                        <div class="col-12">
-                            <h5><a href="entertainment.html">Amy Schume</a></h5>
-                        </div>
-                        <div class="col-12">
-                            <h5><a href="entertainment.html">Kanye West</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <div class="col-12">
-                            <h3>Sports</h3>
-                        </div>
-                        <div class="col-12">
-                            <h5> <a href="basketball.html"> Basketball</a></h5>
-                        </div>
-                        <div class="col-12">
-                            <h5> <a href="hockey.html"> Hockey</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <div class="col-12">
-                            <h3>Local</h3>
-                        </div>
-                        <div class="col-12">
-                            <h5> <a href="local.html">Animals</a></h5>
-                        </div>
-                        <div class="col-12">
-                            <h5> <a href="local.html"></a> Train</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <a href="https://www.linkedin.com/in/fernporti/" target="_blank">
-                      <i class="fab fa-linkedin fa-3x social"></i>
-                    </a>
-        
-                    <a href="https://github.com/Fernando4242" target="_blank">
-                      <i class="fab fa-github fa-3x social"></i>
-                    </a>
-                    <i class="fas fa-code fa-3x social"></i>
+      </nav>
+      <!-- Darkmode Button -->
+      <button
+        id="dark-on-off"
+        type="button"
+        class="btn btn-dark text-right text-right fixed-bottom-l"
+      >
+        Dark Mode
+      </button>
+      <!-- Main Content -->
+      <div class="container">
+        <div class="main-content">
+          <div class="row">
+            <div id="technology" class="col-lg-9 col-12">
+              <div class="col-12">
+                <hr />
+                <h2 class="article-title">
+                  Getting Hockey Referees Ready for the Big Leagues
+                </h2>
+                <div class="author-info">
+                  <div class="img-author">
+                    <img src="" alt="" />
                   </div>
-                <div class="last">
-                    <hr>
-                    <div class="row">
-                        <div class="col-6">
-                            <h6> Copyright &copy; 2019 VRNewsFake. All Rights Reserved.</h6>
-                        </div>
-                        <div class="col-6">
-                            <button type="button" class="btn btn-info source">Sources</button>
-                        </div>
-                    </div>
+                  <div class="author-text">
+                    <p class="author"></p>
+                    <p class="last-modified"></p>
+                  </div>
                 </div>
+                <hr />
+                <img
+                  class="article-img"
+                  src="images/sports/Getting_Hockey_Referees_Ready_for_the Big_Leagues.jpg"
+                  alt=""
+                />
+                <div>
+                  <h3 class="article-sub">Why?</h3>
+                  <p class="article-text">
+                    The big leagues can be really scary for noobs that are
+                    coming in. Especially, for new refs going into hockey, a
+                    place where a brawl can happen anytime. So of course they
+                    are going into a intense training session of getting hit.
+                    They also train to not be afraid of this big heavy and
+                    sometimes even really aggressive players. The worst part is
+                    that refs dont wear much protection but are still in the ice
+                    ring along side every player.
+                  </p>
+                  <p class="article-text">
+                    Now, this refs need to seriously prepare and it is said
+                    their training routine is as hard as any Marines out there.
+                    It is one of the toughest 2 months course consisting of 7
+                    days week and 10 hours a day. This is their job so they
+                    don't need to go anywhere else or need to earn money some
+                    other way. They are getting paid while in this course and
+                    also have life insurance in case they get hurt. One of the
+                    founders of this course and leaders who are preparing refs
+                    said "This year many refs will get hurt but it is only to
+                    protect them out there in the ring. A place where anything
+                    can happen!"
+                  </p>
+                  <img
+                    class="article-img"
+                    src="images/sports/hockey-two.jpg"
+                    alt=""
+                  />
+                  <h3 class="article-sub">
+                    Do they after do something else after this?
+                  </h3>
+                  <p class="article-text">
+                    Afte this intense training session, the refs must take a
+                    written test and a multiple choice test. The written test
+                    needs to be 3 pages long explaining a whole game and must
+                    have on time where a fight happens. They must explain what
+                    they would do in that fight or if someone ran into them
+                    while in the ice. The multiple choice will be around 70
+                    question that all about different possible outcomes.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div id="display-sources" class="d-none">
-                <button id="close-source" type="button" class="close" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+            <!-- START OF SIDE ARTICLES -->
+            <div class="col-3 d-none d-lg-block">
+              <div class="row">
+                <div class="col-12 pt-md-5">
+                  <div class="card" style="width: 100%">
+                    <img
+                      class="card-img-top"
+                      src="images/sports/James_Wiseman_of_Memphis_Can_Return_From_Suspension_in_January.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="basketball.html"
+                          >James Wiseman of Memphis Can Return From Suspension
+                          in January</a
+                        >
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 pt-md-5 sticky">
+                  <iframe
+                    class="gif video-gif"
+                    src="https://www.youtube.com/embed/xIl2z5wwjdA?"
+                    frameborder="0"
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  >
+                  </iframe>
+                </div>
+                <div class="col-12 pt-md-5">
+                  <div class="card" style="width: 100%">
+                    <img
+                      class="card-img-top"
+                      src="images/technology/amazon.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="technology.html">
+                          Amazon wants to ship you anything in 30 minutes. It's
+                          going to need a lots of robots
+                        </a>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 pt-md-5">
+                  <img
+                    class="gif"
+                    src="https://m.media-amazon.com/images/G/01/shazam/f3vx-1353-wfm-hol-ent-new-display-300x250-1miy1._V447554630_.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-12 pt-md-5">
+                  <div class="card" style="width: 100%">
+                    <img
+                      class="card-img-top"
+                      src="images/technology/kanye.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <a href="entertainment.html">
+                          Kanye says he may change his name to Christian Genius
+                          Billionaire Kanye West. Then again, he says a lot of
+                          things
+                        </a>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 pt-md-5">
+                  <img class="gif" src="images/gifs/sports-3.gif" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- END OF SIDE ARTICLE / GIFS -->
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col">
+              <div class="card-deck">
+                <div class="card" style="width: 100%">
+                  <img
+                    class="card-img-top"
+                    src="images/sports/Amy_Schumer.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="entertainment.html"
+                        >Amy Schumer gave out her phone number. We tried getting
+                        in touch</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+                <div class="card" style="width: 100%">
+                  <img
+                    class="card-img-top"
+                    src="images/local/local_animals.png"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 id="weather" class="card-title">
+                      <a href="local.html"
+                        >More than 100 animals rescued from double-wide trailer,
+                        Collin County officials say</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+                <div class="card" style="width: 100%">
+                  <img
+                    class="card-img-top"
+                    src="images/local/rail.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="local.html"
+                        >Texas High-Speed Train Is ‘Shovel Ready'</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="row">
+          <div class="col-12">
+            <form class="form-inline my-2">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success my-2 my-sm-0"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="row">
+              <div class="col-12">
+                <h3>Technology</h3>
+              </div>
+              <div class="col">
+                <h5><a href="technology.html">Amazon</a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="col-12">
+                <h3>Entertainment</h3>
+              </div>
+              <div class="col-12">
+                <h5><a href="entertainment.html">Amy Schume</a></h5>
+              </div>
+              <div class="col-12">
+                <h5><a href="entertainment.html">Kanye West</a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="col-12">
+                <h3>Sports</h3>
+              </div>
+              <div class="col-12">
+                <h5><a href="basketball.html"> Basketball</a></h5>
+              </div>
+              <div class="col-12">
+                <h5><a href="hockey.html"> Hockey</a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="col-12">
+                <h3>Local</h3>
+              </div>
+              <div class="col-12">
+                <h5><a href="local.html">Animals</a></h5>
+              </div>
+              <div class="col-12">
+                <h5><a href="local.html"></a> Train</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <a href="https://www.linkedin.com/in/fernporti/" target="_blank">
+              <i class="fab fa-linkedin fa-3x social"></i>
+            </a>
+
+            <a href="https://github.com/Fernando4242" target="_blank">
+              <i class="fab fa-github fa-3x social"></i>
+            </a>
+            <i class="fas fa-code fa-3x social"></i>
+          </div>
+          <div class="last">
+            <hr />
+            <div class="row">
+              <div class="col-6">
+                <h6>Copyright &copy; 2019 VRNewsFake. All Rights Reserved.</h6>
+              </div>
+              <div class="col-6">
+                <button type="button" class="btn btn-info source">
+                  Sources
                 </button>
-                <h6>Close</h6>
-                <div class="align-center">
-                    <div class="row">
-                        <div class="col-12 col-md-4">
-                            <a href="https://cnn.com" target="_blank"><img src="images/sources/cnn.jpg" alt=""></a>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <a href="https://giphy.com" target="_blank"><img src="images/sources/giphy.gif" alt=""></a>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <a href="https://unsplash.com" target="_blank"><img src="images/sources/unsplash.jpg"
-                                    alt=""></a>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </footer>
+          </div>
+        </div>
+        <div id="display-sources" class="d-none">
+          <button
+            id="close-source"
+            type="button"
+            class="close"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h6>Close</h6>
+          <div class="align-center">
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <a href="https://cnn.com" target="_blank"
+                  ><img src="images/sources/cnn.jpg" alt=""
+                /></a>
+              </div>
+              <div class="col-12 col-md-4">
+                <a href="https://giphy.com" target="_blank"
+                  ><img src="images/sources/giphy.gif" alt=""
+                /></a>
+              </div>
+              <div class="col-12 col-md-4">
+                <a href="https://unsplash.com" target="_blank"
+                  ><img src="images/sources/unsplash.jpg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/script.js"></script>
-</body>
-
+  </body>
 </html>
