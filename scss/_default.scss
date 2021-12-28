@@ -1,0 +1,414 @@
+* {
+    //font-family: 'Work Sans', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
+    //font-family: 'Neuton', serif;
+    //font-family: 'Concert One', cursive;
+    //font-family: 'Space Mono', monospace;
+    overflow: clip;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0%;
+
+    #weather-stuff {
+        background-color: rgba(0, 0, 0, 0.35);
+    }
+}
+
+.row {
+    margin: 0%;
+}
+
+.headerAdHolder {
+    background: #1b1f22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .imageHolder {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 800px;
+        height: 200px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+a {
+    color: inherit;
+    font: inherit;
+}
+
+
+.navbar-text {
+    display: flex;
+    flex-flow: row;
+    align-self: center;
+    justify-content: center;
+    padding-bottom: 0%;
+
+    #one,
+    #two {
+        border-right: 2px solid grey;
+        margin-right: 10px;
+        padding-right: 10px;
+    }
+
+    h5 {
+        margin: 0%;
+    }
+}
+
+.jumbo .col:first-child {
+    padding: 0;
+}
+
+.card-deck {
+    padding: 10px;
+}
+
+.card-deck .card {
+    margin-right: 0px;
+}
+
+
+.jumbotron {
+    color: white;
+    font-size: 22px;
+    text-shadow: 2px 1px black;
+    //background-image:url("images/jumbo/night.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .col-6,
+    .col-12 {
+        padding-left: 40px;
+    }
+
+
+    .temperature {
+        display: flex;
+        flex-flow: row;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+.section-title {
+    font-family: 'Concert One', cursive;
+}
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.card-deck {
+    padding-bottom: 10px;
+}
+
+
+.card-title,
+.article-title {
+    font-family: 'Concert One', cursive;
+}
+
+.card-title:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.280);
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: initial;
+    transition: 0.7s ease;
+}
+
+hr {
+    height: 3px;
+    background: grey;
+}
+
+// FOOTER
+footer {
+    background: #343a40;
+    overflow: hidden;
+    position: relative;
+
+    .row {
+        margin: 0%;
+    }
+
+    .form-inline {
+        display: block;
+    }
+
+    .col,
+    .col-12 {
+        padding-top: 10px;
+        padding-bottom: 5px;
+        text-align: center;
+
+        h3 {
+            padding-top: 10px;
+            color: whitesmoke;
+            text-decoration: underline;
+        }
+    }
+
+    h5,
+    h4 {
+        color: whitesmoke
+    }
+
+    h5:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .row {
+        padding: 0%;
+    }
+
+    a {
+        color: white;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            width: 100%;
+        }
+
+        li a {
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            color: white;
+            padding: 10px;
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        li a:hover {
+            transition-delay: 50ms;
+            background: #031e3b34;
+        }
+
+        .active {
+            background: #031e3b34;
+        }
+    }
+
+
+    .social {
+        padding: 20px;
+        margin: 20px;
+        color: white;
+        text-shadow: black 5px 5px;
+        background: rgba(0, 0, 0, 0.123);
+        border-radius: 50px;
+    }
+
+    .location {
+        text-align: center;
+
+        address {
+            padding-top: 15px;
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+        }
+    }
+}
+
+
+
+//ARTICLES CSS
+#technology .card-title {
+    letter-spacing: .2px;
+    margin: 0 auto 16px;
+}
+
+.article-sub {
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.article-text {
+    text-indent: 50px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.66666667;
+}
+
+// TECHNOLOGY
+.article-img {
+    width: 100%;
+}
+
+
+// LOCAL
+#local {
+    hr {
+        margin-top: 30px;
+    }
+
+    #local-one {
+        z-index: -1;
+    }
+}
+
+// GIFS / Ads
+.gif {
+    width: 100%;
+}
+
+
+.last {
+    padding-bottom: 20px;
+
+    hr {
+        margin-top: 0%;
+    }
+
+    background-color: #1b1f22;
+    text-align: center;
+    width: 100%;
+
+    h6 {
+        color: white;
+    }
+
+    h6:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    source {
+        cursor: pointer;
+    }
+}
+
+.fixed-bottom {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    z-index: 5000;
+}
+
+//Author,Last modified
+.author,
+.last-modified {
+    color: grey;
+}
+
+//video-gif
+.sticky {
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+#display-sources {
+    border-top: black solid 2px;
+    position: absolute;
+    padding-bottom: 20px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.98);
+
+    .align-center {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row row-reverse;
+
+        a {
+            width: 33%;
+        }
+
+        img {
+            padding: 20px;
+            width: 40%;
+        }
+
+        img:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+a:hover {
+    color: inherit;
+}
+
+body {
+    position: relative;
+}
+
+.close {
+    padding-left: 10px;
+    position: relative;
+    float: none;
+}
+
+///DARK MODE------
+.dark-mode {
+    background-color: #1b1f22;
+    color: rgba(245, 245, 245, 0.904);
+
+    #display-sources {
+        background-color: #1b1f22;
+    }
+
+    .card {
+        color: whitesmoke;
+        background-color: #343a40;
+    }
+
+    .close {
+        color: white;
+    }
+}
+
+//Author Text Stuff
+.author-info {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    .author-text {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+    }
+}
+
+.img-author {
+    width: 70px;
+    height: 70px;
+
+    img {
+        width: 100%;
+        border-radius: 50%;
+    }
+}
